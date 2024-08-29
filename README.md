@@ -27,11 +27,11 @@ Developed an ANN-based predictive model to forecast department-wide sales integr
 -AWS Deployment
 
 
-1. Introduction
+## 1. Introduction
    
 The objective of this project is to develop robust predictive models for forecasting weekly sales in a retail setting. Given the complexity of the dataset, which includes features such as 'Store', 'Temperature', 'Fuel_Price', 'CPI', 'Unemployment', 'IsHoliday', and several 'MarkDown' columns, we employed both machine learning and deep learning techniques to maximize predictive accuracy. The challenge of handling significant amounts of missing data, particularly in the 'MarkDown' columns, necessitated a thoughtful approach to model development.
 
-2. Data Cleaning and Preparation
+## 2. Data Cleaning and Preparation
 The dataset was first preprocessed to address missing values and ensure appropriate data types. Columns such as 'MarkDown1' to 'MarkDown5' had over 50% null values. To handle this, we used a strategy of filling null values with Time Series Analysis and Machine Learning Model.
 
 Additional preprocessing steps included:
@@ -43,11 +43,11 @@ Additional preprocessing steps included:
 -Creating lag features, such as Weekly_Sales_Lag1, to capture temporal dependencies.
 
 
-3. Exploratory Data Analysis (EDA)
+## 3. Exploratory Data Analysis (EDA)
 
 A thorough EDA was conducted to understand the relationships between features, sales trends, and the impact of holidays. This included analyzing the correlations between different variables and examining how markdowns and other factors like fuel prices and unemployment rates influenced sales.
 
-4. Feature Engineering
+## 4. Feature Engineering
    
 New features were engineered to enhance the model's predictive power:
 
@@ -58,7 +58,7 @@ New features were engineered to enhance the model's predictive power:
 -Interaction features between markdowns and holiday variables to capture combined effects.
 
 
-5. Deep Learning Models
+## 5. Deep Learning Models
 
 Given the substantial missing data in the 'MarkDown' columns, we adopted a dual-model approach:
 
@@ -78,7 +78,7 @@ Root Mean Squared Error (RMSE)
 
 R-squared (R²)
 
-6. Model Evaluation and Comparison
+## 6. Model Evaluation and Comparison
 There were two models were built with and without markdown. Metrics as follows:
 
 For with Markdown
@@ -103,7 +103,7 @@ For without Markdown
 'Root Mean Squared Error': 22.2
 
 
-7. Model Persistence and Deployment
+## 7. Model Persistence and Deployment
 The final models were saved using the pickle module, ensuring easy deployment in a production environment. The models can be loaded efficiently to make predictions on new data, facilitating real-time decision-making in retail operations. And the entire has been deployed in Amazon Web Service Successfully.
 
 Contact
