@@ -3,16 +3,27 @@
 Developed an ANN-based predictive model to forecast department-wide sales integrating ARIMA and ANN for robust forecasting accuracy.Analyzed the impact of markdown strategies on sales during holiday weeks, identifying key patterns and trends that influence sales performance.
 
 ## Key Technologies and Skills
+
 -Python
+
 -Scikit-Learn
+
 -Keras
+
 -ARIMA
+
 -Time Series Analysis
+
 -Numpy
+
 -Pandas
+
 -Matplotlib
+
 -Seaborn
+
 -Streamlit
+
 -AWS Deployment
 
 
