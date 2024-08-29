@@ -62,9 +62,9 @@ New features were engineered to enhance the model's predictive power:
 
 Given the substantial missing data in the 'MarkDown' columns, we adopted a dual-model approach:
 
-Model 1: Trained using all features, including 'MarkDown' columns.
+**Model 1**: Trained using all features, including 'MarkDown' columns.
 
-Model 2: Trained without 'MarkDown' columns to assess the influence of these features on predictive accuracy.
+**Model 2**: Trained without 'MarkDown' columns to assess the influence of these features on predictive accuracy.
 
 Several types of Artificial Neural Network (ANN) architecture with multiple hidden layers, LeakyReLU activation, and Dropout for regularization were applied, The deep learning model underwent several iterations, including adjustments to layer sizes and the addition of L2 regularization to improve the R² score, which ultimately reached 0.85. The model's architecture was optimized to reduce overfitting while maintaining predictive power.This model exhibited strong performance with minimal overfitting. 
 
@@ -81,7 +81,7 @@ R-squared (R²)
 ## 6. Model Evaluation and Comparison
 There were two models were built with and without markdown. Metrics as follows:
 
-For with Markdown
+#### For with Markdown
 
 'R2': 0.81
 
@@ -92,7 +92,7 @@ For with Markdown
 'Root Mean Squared Error': 24.1
 
 
-For without Markdown
+#### For without Markdown
 
 'R2': 0.83 
 
@@ -106,7 +106,7 @@ For without Markdown
 ## 7. Model Persistence and Deployment
 The final models were saved using the pickle module, ensuring easy deployment in a production environment. The models can be loaded efficiently to make predictions on new data, facilitating real-time decision-making in retail operations. And the entire has been deployed in Amazon Web Service Successfully.
 
-Contact
+# Contact
 
 📧 Email: mmismayil2003@gmail.com
 
