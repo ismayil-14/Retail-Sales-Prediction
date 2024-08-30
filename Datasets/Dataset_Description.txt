@@ -1,5 +1,4 @@
 Stores Dataset: Store type and size.
-
 Features Dataset: Store number, date, temperature, fuel price, markdown data (MarkDown1-5), CPI, unemployment rate, holiday indicator.
 Sales Dataset: Store number, department number, date, weekly sales, holiday indicator.
 
