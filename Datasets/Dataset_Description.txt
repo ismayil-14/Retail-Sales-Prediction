@@ -1,9 +1,1 @@
-**Stores Dataset**: Store type and size.
-**Features Dataset**: Store number, date, temperature, fuel price, markdown data (MarkDown1-5), CPI, unemployment rate, holiday indicator.
-**Sales Dataset**: Store number, department number, date, weekly sales, holiday indicator.
 
-**Cleaned Feature Dataset**: Filled null values in CPI and Unemployment using Time Series Models.
-**Preprocessed Table**: Combined all three dataset filling all null values except Weekly Sales.
-
-**Cleaned Dataset with Markdown**: Filled all null values in the dataset with all essential columns.
-**Cleaned Dataset without Markdown**: Filled all null values in the dataset with all essential columns except markdown.
