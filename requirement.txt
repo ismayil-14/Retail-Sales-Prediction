@@ -7,3 +7,4 @@ seaborn
 streamlit
 keras-tuner
 pmdarima
+streamlit_option_menu
