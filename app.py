@@ -159,7 +159,7 @@ if selected == "PREDICT RETAIL PRICE":
 
     if submit_button:
         flag = 0 
-        pattern = "?"
+        pattern = "?@!"
         for i in [temperature,fuel,cpi,unemp,m1,m2,m3,m4,m5]:             
             if not re.match(pattern, i):
                 flag = 1
