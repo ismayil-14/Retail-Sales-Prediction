@@ -9,7 +9,6 @@ import re
 from PIL import Image
 import warnings
 import pickle
-import tensorflow as tf
 warnings.filterwarnings("ignore")
 from datetime import datetime
 
