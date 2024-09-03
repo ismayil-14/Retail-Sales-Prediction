@@ -86,7 +86,6 @@ dept_dict= {1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 2
 
 
 
-icon = Image.open("icon.jpeg")
 st.set_page_config(page_title= "Retail Sales Price Prediction| By Mohamed Ismayil",
                 layout= "wide",
                 initial_sidebar_state= "expanded",
